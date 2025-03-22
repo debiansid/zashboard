@@ -211,7 +211,12 @@ export default defineComponent({
 
       const toggleCollapseAll = (
         <button
-          class={['btn btn-circle btn-sm', twoColumnProxyGroup.value && 'max-sm:hidden']}
+          class={[
+            'btn btn-circle btn-sm',
+            twoColumnProxyGroup.value &&
+              proxiesTabShow.value === PROXY_TAB_TYPE.PROXIES &&
+              'max-sm:hidden',
+          ]}
           onClick={handlerClickToggleCollapse}
         >
           {hasNotCollapsed.value ? (

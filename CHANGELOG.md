@@ -2,6 +2,13 @@
 
 # Changelog
 
+## [1.76.2](https://github.com/debiansid/zashboard/compare/v1.76.1...v1.76.2) (2025-03-23)
+
+
+### Bug Fixes
+
+* compatible with legacy version of clash meta ([f335691](https://github.com/debiansid/zashboard/commit/f335691a7134bd1603dbaefa781b6b1ade61a593))
+
 ## [1.76.1](https://github.com/debiansid/zashboard/compare/v1.76.0...v1.76.1) (2025-03-22)
 
 
